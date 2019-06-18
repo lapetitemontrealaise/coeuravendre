@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+
+.titre {
+  font-family:'Sacramento', cursive;
+  font-size:40px;
+
+  text-align: center;
+}
+.soustitre{
+  font-family:'Amatic SC', cursive;
+  font-size: 50px;
+  text-align: center;
+}
