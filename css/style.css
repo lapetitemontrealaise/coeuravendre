@@ -18,3 +18,13 @@ body {
   font-size: 50px;
   text-align: center;
 }
+.hero{
+  background-image: url("../picture/sharon-mccutcheon-576867-unsplash.jpg");
+  height:100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
