@@ -45,7 +45,18 @@ body {
   font-size: 36px;
   color: black;
   text-decoration: none;
+  transition:0.2s;
+}
+.article a:hover {
+  opacity: 0.6;
 }
 .text-blanc{
   color:white;
+}
+.text{
+  font-family: 'helvetica';
+  font-size:18px;
+  padding: 20px 10%;
+  text-align: center;
+
 }
