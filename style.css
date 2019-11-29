@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.titre {
+  font-family:'Sacramento', cursive;
+  font-size:50px;
+  text-align: center;
+}
+.soustitre{
+  font-family:'Amatic SC', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.hero{
+  height:100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container{
+  padding: 75px 10%;
+  display:flex;
+  flex-wrap: wrap;
+}
+.article{
+  text-align: center;
+  width: 50%;
+  padding:0 3% 70px;
+}
+.article img {
+  width: 100%;
+}
+.article a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  transition:0.2s;
+}
+.article a:hover {
+  opacity: 0.6;
+}
+.text-blanc{
+  color:white;
+}
+.text{
+  font-family: 'helvetica';
+  font-size:18px;
+  padding: 20px 10% px;
+  text-align: center;
